@@ -1,0 +1,120 @@
+/****
+Design By Codingscape.
+Subscribe Now: https://www.youtube.com/channel/UCUJ3zi-DTBZitHOOa4SJg3w
+***/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(114.2deg, rgba(121,184,243,1) 22.6%, rgba(255,180,239,1) 67.7%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins';
+}
+.login{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background: rgba(255,255,255,0.24);
+    border-radius: 8px;
+    padding: 20px 40px;
+    width: 320px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2.4px);
+    border: 2px solid rgba(255, 255, 255, 0.459);
+}
+.login h2{
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+    color: #000;
+}
+hr{
+    border: none;
+    border-top:6px solid #fff;
+    width: 35%;
+    height: 5px;
+}
+
+.login-form .form-group{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin:8px 0px;
+}
+.form-group label{
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.form-group input{
+    border: 0;
+    width: 100%;
+    height: 32px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 4px;
+    color: #000;
+    background: rgba(255,255,255, 0.2);
+    border: 1px solid rgba(255,255,255, 1.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    padding: 0px 6px;
+}
+.form-group input::placeholder{
+    color: #fff;
+}
+.form-group input:focus{
+    outline: none;
+    border: 2px solid rgba(255,255,255, 1.2);
+}
+
+.login-form .login-btn{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 36px;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    color: #fff;
+    background: rgba(12, 11, 11, 0.959);
+    border: 1px solid rgba(12, 11, 11, 0.959);
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.login-form .login-btn:hover{
+    color: #000;
+    background: rgba(255,255,255, 0.2);
+    border: 1px solid rgba(255,255,255, 1.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    transform: scale(1.03);
+}
+.login-reset, .create-account{
+    font-size: 16px;
+    color: #072227;
+}
+.login-reset a, .create-account a{
+    text-decoration: none;
+    color: #000;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login-reset a:hover, .create-account a:hover{
+    border-bottom: 3px solid #000;
+    transition: all 0.2s ease-in;
+}
